@@ -211,3 +211,88 @@ If this list helped you, please ⭐ the repo!
 
 # Awesome-AI-Workflow-Automation-Task-Management
 
+# Top AI Workflow Automation & Task Management Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Agentic Orchestration, Visual Flow Building & Human-in-the-Loop Task Automation*  
+**Last updated: March 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Workflow Automation & Task Management**. These tools help teams connect applications, automate repetitive work, and orchestrate AI agents that execute multi-step processes—covering everything from visual no-code builders and agent-native platforms to self-hosted engines that keep your data and credentials on your own infrastructure.
+
+**Examples** include n8n, Zapier, Make, Workato, Flowise, Dify, Langflow, Pipedream, and SoduWork (the category leaders).
+
+**Open-source emphasis**: This section highlights every major active project for self-hosted workflow automation, open-source AI agent orchestration, and community-driven task engines—ideal for engineering teams seeking data sovereignty, avoiding per-task billing surprises, and maintaining full control over execution logic and credentials. The open-source landscape is genuinely mature: **n8n** offers a source-available engine with self-hosting and execution-based billing , **Flowise** provides a visual AI agent builder with air-gapped deployment options , and **SoduWork** introduces a multi-harness, human-in-the-loop platform that turns proven methods into reusable plugins .
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-products)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Zapier](https://zapier.com/)**  
+  The most accessible no-code automation platform with **9,000+ integrations**. Conventional Zaps bill per **successful action task** (trigger steps and built-in utilities like Filter/Formatter don't count) [citation:7][citation:11]. **Agents** are billed separately from tasks. Best for business users connecting common SaaS apps quickly without infrastructure management [citation:7].
+
+- **[Make (Integromat)](https://www.make.com/)**  
+  Visual scenario builder with routers, iterators, aggregators, and data mapping. Billing is in **credits per module operation**—loops and iterators multiply consumption, and some AI features use dynamic credits [citation:7][citation:11]. Best for operators wanting to see branching logic and data flow visually [citation:7].
+
+- **[n8n Cloud](https://n8n.io/)**  
+  Managed version of the source-available n8n engine. Cloud pricing is primarily based on **complete workflow executions** rather than per-step actions—attractive for long workflows with many deterministic nodes [citation:7]. **Note**: n8n's Sustainable Use License is **source-available, not OSI-approved open source**, with restrictions on offering its functionality commercially to third parties [citation:11].
+
+- **[Workato](https://www.workato.com/)**  
+  Enterprise automation platform with recipe-based workflows and a Connector SDK. Positioned for large-scale enterprise automation with AI capabilities. Pricing is quote-only, typically credit-based.
+
+- **[Tray.io (Tray.ai)](https://tray.ai/)**  
+  Enterprise low-code iPaaS with 700+ connectors and AI agent capabilities. Rebranded to Tray.ai in 2024 with Merlin Agent Builder.
+
+- **[Pipedream](https://pipedream.com/)**  
+  Developer-focused integration platform with **11.3k GitHub stars** (open-source components) [citation:21]. Connects APIs with pre-built components and custom Node.js/Python/Go/Bash code. **Free for individual developers**; paid plans for teams. SDKs for Python, TypeScript, and Java [citation:25].
+
+## Open-Source GitHub Projects
+
+- **[n8n](https://github.com/n8n-io/n8n)**  
+  Source-available workflow automation engine with a visual editor and 400+ integrations. **Self-hosting** gives full control over deployment architecture; paid self-hosted editions are licensed by monthly workflow executions [citation:7]. **AI Agent node** and composable AI workflow nodes enable model-driven steps within deterministic flows [citation:11]. Best for engineering-led teams wanting to manage their own deployment or combine conventional automation with technical AI components [citation:7].
+
+- **[Flowise](https://github.com/FlowiseAI/Flowise)**  
+  Open-source generative AI development platform with **three visual builders**: **Assistant** (beginner-friendly chat agents with RAG), **Chatflow** (single-agent systems with advanced RAG), and **Agentflow** (multi-agent orchestration) [citation:18]. Connects to **100+ sources, tools, vector databases, and memories**. **Human-in-the-loop** support for reviewing agent actions or approving tool calls [citation:29]. **Self-hosted or air-gapped deployment**, RBAC, SSO, and embedded chat widgets [citation:18]. Used by Fortune 500 companies including Thermo Fisher and Deloitte [citation:29].
+
+- **[Dify](https://github.com/langgenius/dify)**  
+  Open-source LLMOps platform for building AI applications with a **visual interface and workflow orchestration**. Supports **agent capabilities** with autonomous reasoning and tool calls, **260+ plugins**, and enterprise-grade security [citation:19]. Available as open-source community edition, cloud SaaS, or enterprise deployment. **Workflow orchestration** automates complex multi-step AI processes [citation:19].
+
+- **[Langflow](https://github.com/langflow-ai/langflow)**  
+  Visual builder for AI agents and workflows with **source code access** for custom Python components. **Multi-agent orchestration** with conversation management and retrieval. Deploy as an **API or MCP server** to turn flows into tools for MCP clients. Observability via LangSmith and LangFuse. **Langflow Desktop** bundles all dependencies for Windows and macOS [citation:20]. Open source and deployable to major clouds.
+
+- **[SoduWork](https://github.com/mdiri-ai/SoduWork)**  
+  **Multi-harness, multi-agent, self-hosted AI-native engine** (MIT licensed, ~2.7k stars as of Nov 2026) [citation:28]. **No canvas, no wiring nodes**—you finish a real task with an agent, then save the method as a **versioned, reviewable plugin** that others can install [citation:22]. **Runs 9 harnesses** (Pi, OpenCode, Codex, Qwen Code, DeepSeek, Google, etc.) with **mid-conversation harness switching** [citation:16][citation:22]. **Shared issue pool** flows from request → execution → independent AI review → human sign-off, with full audit trail [citation:22]. **Plugins define method; harness/model/runner/secrets are chosen separately** when the plugin is bound—so the same method can run on different stacks [citation:22]. **Honest limitation**: plugins don't save tokens—verification costs tokens, buying correctness not cost reduction [citation:16]. Best for teams with written rules and low tolerance for errors in repetitive work [citation:16].
+
+### Additional Strong Open-Source Options
+
+- **AI Agent frameworks and visual builders** (e.g., LangGraph, CrewAI, AutoGen) for teams wanting code-first orchestration rather than a full platform [citation:12].
+- **MCP server implementations** (e.g., mcp-agent) for building agents natively interoperable with the Model Context Protocol tool ecosystem [citation:12].
+- **Vikunja** (GPL-3.0) as a self-hosted task management backend with **native MCP 3.0 support** for agentic task creation, updating, and querying—pairs with automation engines for the task layer [citation:13].
+- **Pipedream's open-source SDKs** (Python, TypeScript, Java) for teams wanting to embed API connectivity into their own applications rather than using the hosted platform [citation:25].
+
+**Frameworks for building custom systems**: Combine **n8n** for deterministic automation with **Flowise** or **Dify** for AI agent workflows, or use **SoduWork** for a human-in-the-loop model where proven methods become portable plugins. Pair with **Vikunja** as the task backend when agents need to create and track actionable items.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- AI workflow platforms execute arbitrary actions with connected credentials; enforce least-privilege scopes, human-in-the-loop review for destructive operations, and audit logging for all automated runs.
+- **Billing models in this category are not directly comparable and can produce unpredictable costs.** **Zapier bills per successful action task**—one incoming record that triggers five downstream actions consumes five tasks [citation:7]. **Make bills per module operation**, and iterators/loops can multiply credit consumption significantly [citation:7]. **n8n Cloud bills per complete execution**, which favors long workflows with many deterministic steps [citation:7]. **n8n's Sustainable Use License is source-available but not OSI-approved open source**—commercial-use restrictions should be reviewed before deployment [citation:11]. **SoduWork explicitly states its plugins do not save tokens**—verification costs more, buying correctness rather than cost reduction [citation:16]. Validate your actual workflow volume, step count, and human review requirements against each platform's billing unit before committing.
+
+---
+
+**Made for automation engineers, AI platform teams, and operations leaders building intelligent workflow infrastructure.**  
+Let's make AI workflow automation and task management more open, auditable, and human-controlled.
