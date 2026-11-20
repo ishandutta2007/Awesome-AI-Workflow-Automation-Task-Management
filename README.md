@@ -1,298 +1,133 @@
-# Awesome-AI-Workflow-Automation-Task-Management
-
-# Awesome AI Website Builder & Landing Page Generator 🌟
-
-
-
-> **Top AI Website Builder Landing Page Generator (Opensource)**  
-
-> A curated list of the best AI-powered website builders and landing page generators — with a strong focus on **open-source** and self-hostable alternatives.  
-
-> 🌟 **Star if you like it!** 🌟
-
-
-
-AI website builders and landing page generators let you go from a simple prompt or description to a fully designed, responsive site (or conversion-focused landing page) in minutes. Commercial tools like Durable, 10Web, Framer AI, and others dominate the hosted space, but a growing ecosystem of open-source projects gives you full control, no vendor lock-in, and the ability to run locally or self-host.
-
-
-
-This list prioritizes **open-source GitHub projects** while keeping SaaS/hosted platforms clearly separated.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS / Hosted Platforms](#saas--hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS / Hosted Platforms
-
-
-
-These are popular commercial AI website builders and landing page generators (closed-source / hosted):
-
-
-
-- **[Durable](https://durable.co/)** — Generates a complete business website + CRM + invoicing in under 60 seconds. Ideal for local service businesses and solopreneurs.
-
-- **[10Web](https://10web.io/)** — AI website builder built on WordPress + Elementor. Can recreate sites from a URL or prompt and hosts on Google Cloud with performance optimization.
-
-- **[Framer AI](https://www.framer.com/)** — Design-first AI website builder with a powerful visual canvas, advanced animations, and CMS. Excellent for designers who want pixel-perfect control.
-
-- **[Wix Studio AI](https://www.wix.com/studio)** — AI-assisted website creation inside the Wix ecosystem (ADI + Studio tools). Strong for beginners and full marketing sites.
-
-- **[Hostinger AI Website Builder](https://www.hostinger.com/)** — Fast AI site generation tightly integrated with Hostinger hosting.
-
-- **[Dorik AI](https://dorik.com/)** — AI website & landing page builder focused on speed and simplicity.
-
-- **[Relume](https://www.relume.io/)** — AI-powered component library and site structure generator that works great with Figma → Webflow/Framer workflows.
-
-- **[TeleportHQ](https://teleporthq.io/)** — AI-assisted visual development platform with code export.
-
-- **[B12](https://www.b12.io/)** — AI website builder aimed at professional services (lawyers, consultants, agencies) with built-in marketing tools.
-
-- **[CodeDesign.ai](https://codedesign.ai/)** — AI website & landing page generator with clean code export options.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-Open-source alternatives and tools you can self-host, run locally, or extend. These range from full visual AI builders to prompt-to-landing-page generators and developer-focused frameworks.
-
-
-
-### Full AI Website / App Builders
-
-
-
-- **[buildingopen/openpage](https://github.com/buildingopen/openpage)**  
-
-  Open-source website builder with a Framer-like visual drag-and-drop editor + AI site generation (Gemini). JSON-first architecture (single source of truth). Self-hosted alternative to Framer / Lovable / v0. Built with React 19, TypeScript, Tailwind CSS v4. MIT.
-
-
-
-- **[stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy)**  
-
-  The popular open-source version of Bolt.new. Prompt → full-stack web apps & sites in the browser using WebContainers. Supports 20+ LLM providers (OpenAI, Anthropic, Gemini, Groq, Ollama, local models, etc.). Live preview, terminal, code editor, one-click deploy. Extremely active (~20k+ stars). MIT.
-
-
-
-- **[webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)**  
-
-  Advanced open-source visual website builder (strong Webflow/Framer alternative). Full CSS control, components, CMS connections, animations. AI support via MCP (agents can build/edit projects) + separate Inception design exploration tool. AGPL core. Self-hostable + hosted option.
-
-
-
-### AI Landing Page Generators
-
-
-
-- **[zinedkaloc/aipage.dev](https://github.com/zinedkaloc/aipage.dev)** (and forks such as jeus0522/AI-Landing-Page-Generator)  
-
-  Classic open-source AI landing page generator. Describe your page → get clean HTML + Tailwind CSS. Simple, fast, and still widely forked/used. MIT.
-
-
-
-- **[keyflowcoreg/pageforge](https://github.com/keyflowcoreg/pageforge)**  
-
-  AI landing page generator powered by Gemini 2.0 Flash. Multiple template styles, live responsive preview, export as Next.js or standalone HTML.
-
-
-
-- **[alexar76/aicom-landing](https://github.com/alexar76/aicom-landing)**  
-
-  One-prompt → self-contained HTML landing page in ~30–60 seconds. 20 style presets. Fully self-hosted, supports OpenAI / Ollama / DeepSeek. MIT. Perfect for rapid MVPs and A/B testing.
-
-
-
-- **[Cybrarist/InstantLand](https://github.com/Cybrarist/InstantLand)**  
-
-  Open-source landing page / marketing site builder with GrapeJS visual editor, A/B testing, custom forms, and campaign tools. Self-hostable (PHP/Laravel stack).
-
-
-
-### Other Notable Open-Source Tools & Templates
-
-
-
-- **[HugoBlox/hugo-theme-saas-landing-page](https://github.com/HugoBlox/hugo-theme-saas-landing-page)**  
-
-  Markdown-first SaaS landing page system. AI can generate the content; you own clean Markdown files. Extremely fast, free hosting forever (static). Great for developers who hate React maintenance.
-
-
-
-- **[RayVelez27/instalanding.ai](https://github.com/RayVelez27/instalanding.ai)**  
-
-  Library of premium single-file HTML landing pages + motion components. No frameworks, no build step. Designed for humans *and* AI coding agents (includes one-shot prompts).
-
-
-
-- **[ln-dev7/landing-pages](https://github.com/ln-dev7/landing-pages)**  
-
-  Collection of distinctive, personality-rich open-source landing pages built with Next.js + Tailwind + shadcn/ui.
-
-
-
-- **[all-in-aigc/pagen-ai-landing-page-template](https://github.com/all-in-aigc/pagen-ai-landing-page-template)**  
-
-  Clean Next.js + shadcn/ui AI landing page template generated by Pagen AI. Easy to customize.
-
-
-
-- **GrapesJS-based builders** and related projects (search “grapesjs landing” or “grapesjs page builder”) — the foundational open-source visual page builder that many self-hosted tools build upon.
-
-
-
-- Additional emerging projects worth watching: various multi-agent SEO landing page systems, local Ollama-powered generators, and visual editors that integrate with agents via MCP.
-
-
-
-> **Tip**: Many of the strongest open-source options today are either (1) visual builders with AI/MCP support (OpenPage, Webstudio) or (2) full prompt-to-app environments you can self-host (bolt.diy). For pure marketing landing pages, the simpler HTML/Tailwind generators are often the fastest path.
-
-
-
-## How to Contribute
-
-
-
-Contributions are welcome and encouraged!
-
-
-
-1. Fork the repository
-
-2. Add a new tool under the appropriate section (keep SaaS and Open-Source strictly separate)
-
-3. Use the same format: **Name** — short description + key features + license/link
-
-4. Prefer actively maintained projects with clear documentation
-
-5. Submit a Pull Request
-
-
-
-Please keep descriptions neutral and factual. Open-source projects are the primary focus of this list.
-
-
-
-## Disclaimer
-
-
-
-This is a community-curated list for informational purposes only.  
-
-Inclusion does not constitute an endorsement. Always review licenses, privacy policies, pricing, and security practices before using any tool (especially when handling customer data or deploying to production).  
-
-
-
-Some “open-source” projects may have dual licensing, proprietary components, or require paid API keys for AI features. Check the actual LICENSE file and documentation.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Workflow Automation & Task Management Banner" width="100%" />
+</p>
+
+# Awesome AI Workflow Automation & Task Management 🚀 🌟
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management" alt="GitHub issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🤖 **Curated directory of the best AI workflow automation engines, agentic orchestration frameworks, iPaaS tools, and task management platforms.**  
+> 🔍 *Covers both leading commercial SaaS ecosystems and self-hostable open-source solutions.*  
+> ⭐ **Star this repository if you find it helpful!**
 
 ---
 
-
-
-**Made with ❤️ for the open-source community**  
-
-If this list helped you, please ⭐ the repo!
-# Awesome-AI-Workflow-Automation-Task-Management
-
-# Awesome-AI-Workflow-Automation-Task-Management
-
-## Top AI Workflow Automation & Task Management Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Agentic Orchestration, Visual Flow Building & Human-in-the-Loop Task Automation*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Workflow Automation & Task Management**. These tools help teams connect applications, automate repetitive work, and orchestrate AI agents that execute multi-step processes—covering everything from visual no-code builders and agent-native platforms to self-hosted engines that keep your data and credentials on your own infrastructure.
-
-**Examples** include n8n, Zapier, Make, Workato, Flowise, Dify, Langflow, Pipedream, and SoduWork (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted workflow automation, open-source AI agent orchestration, and community-driven task engines—ideal for engineering teams seeking data sovereignty, avoiding per-task billing surprises, and maintaining full control over execution logic and credentials. The open-source landscape is genuinely mature: **n8n** offers a source-available engine with self-hosting and execution-based billing , **Flowise** provides a visual AI agent builder with air-gapped deployment options , and **SoduWork** introduces a multi-harness, human-in-the-loop platform that turns proven methods into reusable plugins .
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Zapier](https://zapier.com/)**  
-  The most accessible no-code automation platform with **9,000+ integrations**. Conventional Zaps bill per **successful action task** (trigger steps and built-in utilities like Filter/Formatter don't count) [citation:7][citation:11]. **Agents** are billed separately from tasks. Best for business users connecting common SaaS apps quickly without infrastructure management [citation:7].
-
-- **[Make (Integromat)](https://www.make.com/)**  
-  Visual scenario builder with routers, iterators, aggregators, and data mapping. Billing is in **credits per module operation**—loops and iterators multiply consumption, and some AI features use dynamic credits [citation:7][citation:11]. Best for operators wanting to see branching logic and data flow visually [citation:7].
-
-- **[n8n Cloud](https://n8n.io/)**  
-  Managed version of the source-available n8n engine. Cloud pricing is primarily based on **complete workflow executions** rather than per-step actions—attractive for long workflows with many deterministic nodes [citation:7]. **Note**: n8n's Sustainable Use License is **source-available, not OSI-approved open source**, with restrictions on offering its functionality commercially to third parties [citation:11].
-
-- **[Workato](https://www.workato.com/)**  
-  Enterprise automation platform with recipe-based workflows and a Connector SDK. Positioned for large-scale enterprise automation with AI capabilities. Pricing is quote-only, typically credit-based.
-
-- **[Tray.io (Tray.ai)](https://tray.ai/)**  
-  Enterprise low-code iPaaS with 700+ connectors and AI agent capabilities. Rebranded to Tray.ai in 2024 with Merlin Agent Builder.
-
-- **[Pipedream](https://pipedream.com/)**  
-  Developer-focused integration platform with **11.3k GitHub stars** (open-source components) [citation:21]. Connects APIs with pre-built components and custom Node.js/Python/Go/Bash code. **Free for individual developers**; paid plans for teams. SDKs for Python, TypeScript, and Java [citation:25].
-
-## Open-Source GitHub Projects
-
-- **[n8n](https://github.com/n8n-io/n8n)**  
-  Source-available workflow automation engine with a visual editor and 400+ integrations. **Self-hosting** gives full control over deployment architecture; paid self-hosted editions are licensed by monthly workflow executions [citation:7]. **AI Agent node** and composable AI workflow nodes enable model-driven steps within deterministic flows [citation:11]. Best for engineering-led teams wanting to manage their own deployment or combine conventional automation with technical AI components [citation:7].
-
-- **[Flowise](https://github.com/FlowiseAI/Flowise)**  
-  Open-source generative AI development platform with **three visual builders**: **Assistant** (beginner-friendly chat agents with RAG), **Chatflow** (single-agent systems with advanced RAG), and **Agentflow** (multi-agent orchestration) [citation:18]. Connects to **100+ sources, tools, vector databases, and memories**. **Human-in-the-loop** support for reviewing agent actions or approving tool calls [citation:29]. **Self-hosted or air-gapped deployment**, RBAC, SSO, and embedded chat widgets [citation:18]. Used by Fortune 500 companies including Thermo Fisher and Deloitte [citation:29].
-
-- **[Dify](https://github.com/langgenius/dify)**  
-  Open-source LLMOps platform for building AI applications with a **visual interface and workflow orchestration**. Supports **agent capabilities** with autonomous reasoning and tool calls, **260+ plugins**, and enterprise-grade security [citation:19]. Available as open-source community edition, cloud SaaS, or enterprise deployment. **Workflow orchestration** automates complex multi-step AI processes [citation:19].
-
-- **[Langflow](https://github.com/langflow-ai/langflow)**  
-  Visual builder for AI agents and workflows with **source code access** for custom Python components. **Multi-agent orchestration** with conversation management and retrieval. Deploy as an **API or MCP server** to turn flows into tools for MCP clients. Observability via LangSmith and LangFuse. **Langflow Desktop** bundles all dependencies for Windows and macOS [citation:20]. Open source and deployable to major clouds.
-
-- **[SoduWork](https://github.com/mdiri-ai/SoduWork)**  
-  **Multi-harness, multi-agent, self-hosted AI-native engine** (MIT licensed, ~2.7k stars as of Nov 2026) [citation:28]. **No canvas, no wiring nodes**—you finish a real task with an agent, then save the method as a **versioned, reviewable plugin** that others can install [citation:22]. **Runs 9 harnesses** (Pi, OpenCode, Codex, Qwen Code, DeepSeek, Google, etc.) with **mid-conversation harness switching** [citation:16][citation:22]. **Shared issue pool** flows from request → execution → independent AI review → human sign-off, with full audit trail [citation:22]. **Plugins define method; harness/model/runner/secrets are chosen separately** when the plugin is bound—so the same method can run on different stacks [citation:22]. **Honest limitation**: plugins don't save tokens—verification costs tokens, buying correctness not cost reduction [citation:16]. Best for teams with written rules and low tolerance for errors in repetitive work [citation:16].
-
-### Additional Strong Open-Source Options
-
-- **AI Agent frameworks and visual builders** (e.g., LangGraph, CrewAI, AutoGen) for teams wanting code-first orchestration rather than a full platform [citation:12].
-- **MCP server implementations** (e.g., mcp-agent) for building agents natively interoperable with the Model Context Protocol tool ecosystem [citation:12].
-- **Vikunja** (GPL-3.0) as a self-hosted task management backend with **native MCP 3.0 support** for agentic task creation, updating, and querying—pairs with automation engines for the task layer [citation:13].
-- **Pipedream's open-source SDKs** (Python, TypeScript, Java) for teams wanting to embed API connectivity into their own applications rather than using the hosted platform [citation:25].
-
-**Frameworks for building custom systems**: Combine **n8n** for deterministic automation with **Flowise** or **Dify** for AI agent workflows, or use **SoduWork** for a human-in-the-loop model where proven methods become portable plugins. Pair with **Vikunja** as the task backend when agents need to create and track actionable items.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- AI workflow platforms execute arbitrary actions with connected credentials; enforce least-privilege scopes, human-in-the-loop review for destructive operations, and audit logging for all automated runs.
-- **Billing models in this category are not directly comparable and can produce unpredictable costs.** **Zapier bills per successful action task**—one incoming record that triggers five downstream actions consumes five tasks [citation:7]. **Make bills per module operation**, and iterators/loops can multiply credit consumption significantly [citation:7]. **n8n Cloud bills per complete execution**, which favors long workflows with many deterministic steps [citation:7]. **n8n's Sustainable Use License is source-available but not OSI-approved open source**—commercial-use restrictions should be reviewed before deployment [citation:11]. **SoduWork explicitly states its plugins do not save tokens**—verification costs more, buying correctness rather than cost reduction [citation:16]. Validate your actual workflow volume, step count, and human review requirements against each platform's billing unit before committing.
+## 📌 Table of Contents
+- [📖 Overview & Key Concepts](#-overview--key-concepts)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 Architectural Patterns & Combinations](#-architectural-patterns--combinations)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
-**Made for automation engineers, AI platform teams, and operations leaders building intelligent workflow infrastructure.**  
-Let's make AI workflow automation and task management more open, auditable, and human-controlled.
+## 📖 Overview & Key Concepts
+
+**AI Workflow Automation & Task Management** platforms empower software engineers, data professionals, and operations teams to bridge enterprise applications, orchestrate autonomous multi-agent systems, and automate multi-step processes with human-in-the-loop oversight. 
+
+Modern architectures in this domain span:
+- **Autonomous Agentic Orchestration**: Multi-harness AI workers executing multi-step reasoning, tool invocations, and dynamic code execution.
+- **Model Context Protocol (MCP)**: Universal standardized integration enabling AI agents to query external tools, resources, and task backends securely.
+- **Visual Flow Builders**: Drag-and-drop scenario builders with deterministic routers, iterators, conditional branching, and error handlers.
+- **Self-Hosted Data Sovereignty**: Air-gapped, on-premise execution engines preventing third-party data leakage and token consumption bloat.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global AI workflow automation and iPaaS market is valued at approximately **$12B to $17B** and is projected to expand beyond **$100B+** over the next decade (growing at a 25%–35% CAGR) as enterprises shift from static API triggers to autonomous agentic orchestration. The sector is **concentrated at the enterprise tier**—dominated by well-capitalized leaders and cloud hyperscalers—yet remains **highly fragmented at the innovation frontier**, where rapid emergence of open-source frameworks, agent-native engines, and Model Context Protocol (MCP) integrations prevents any single platform from capturing a winner-take-all monopoly.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+Leading commercial AI workflow automation and iPaaS platforms, sorted by enterprise scale (valuation / revenue):
+
+| 🏢 Product | 📈 Company Size (Valuation / Revenue) | 💰 Pricing (Starting Tier) | 🎁 Free Tier Limits | ⚙️ Architecture & Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Make (Celonis)](https://www.make.com/)** | **$11B – $13B valuation** (Celonis); ~$400M+ revenue | **$9.00/mo** (Core plan, billed annually) or $10.59/mo monthly | **1,000 operations/month**, 2 active scenarios, 15-minute execution interval, 500 MB data transfer limit | Visual scenario builder with routers, iterators, aggregators, and data mapping. Billing counts module operations. |
+| **[Workato](https://www.workato.com/)** | **$5.7B valuation** (peak) / ~$150M+ ARR | **$75.00/mo** (Pro base) / enterprise quote (~$20k–$50k+/yr) | **30-day free trial** (restricted sandbox, baseline credits upon approval; no permanent free tier) | Enterprise low-code iPaaS with 1,200+ connectors, Recipe IQ, and governance. |
+| **[n8n Cloud](https://n8n.io/)** | **$5.2B valuation** (SAP strategic round); €100M+ ARR | **$20.00/mo** (Starter plan, billed annually as €20/mo) | **14-day free trial** (1,000 workflow executions limit, 5 concurrent executions; no permanent cloud free tier) | Managed cloud edition of n8n. Charges per complete execution rather than step-by-step actions. |
+| **[Zapier](https://zapier.com/)** | **$5.0B valuation**; ~$310M+ ARR | **$19.99/mo** (Professional plan, billed annually) or $29.99/mo monthly | **100 tasks/month**, single-user seat, 2-step Zaps only (1 trigger, 1 action), 15-minute polling interval | Accessible no-code platform with 9,000+ connectors. Bills per successful action step. |
+| **[Tray.io (Tray.ai)](https://tray.ai/)** | **$600M+ valuation**; ~$70.9M ARR | **$50.00/mo** (Starter usage tier) / custom mid-market | **14-day free trial** (capped task execution volume, builder testing; no permanent free tier) | Enterprise iPaaS with Merlin Agent Builder and autonomous agentic workflows. |
+| **[Pipedream](https://pipedream.com/)** | **$80M valuation** (acquired by Workday); $22.4M funding | **$99.00/mo** (Startup plan, billed annually) or $150/mo monthly | **Free forever plan**: Unlimited workflows, daily free compute credits, 750 seconds of test runtime/day (development mode) | Developer-centric integration platform combining prebuilt components with custom code (Node, Python, Go, Bash). |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Self-hostable, community-driven workflow automation and AI task orchestration systems, sorted by GitHub stars:
+
+| 📦 Project | 🌟 GitHub Stars | 🎯 Focus & Architecture | 📜 License |
+| :--- | :--- | :--- | :--- |
+| **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Source-available node-based workflow automation engine with 400+ nodes, built-in AI Agent node, and execution-based licensing. | Sustainable Use (Fair-code) |
+| **[Dify](https://github.com/langgenius/dify)** | [![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers) | Open-source LLMOps platform combining visual prompt engineering, workflow orchestration, 260+ plugins, and multi-agent systems. | Apache-2.0 |
+| **[Langflow](https://github.com/langflow-ai/langflow)** | [![GitHub stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers) | Visual IDE for multi-agent workflows with direct Python source access, native MCP server export, and desktop runtime. | MIT |
+| **[Flowise](https://github.com/FlowiseAI/Flowise)** | [![GitHub stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers) | Visual canvas for building AI agents with Chatflows, Agentflows, RAG pipelines, and human-in-the-loop review capabilities. | Apache-2.0 |
+| **[Huginn](https://github.com/huginn/huginn)** | [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers) | Hackable agent-based system for monitoring events and automating tasks online (a self-hosted IFTTT/Zapier alternative). | MIT |
+| **[Directus](https://github.com/directus/directus)** | [![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers) | Modular data platform with automated event-driven workflows (Flows), custom hooks, webhooks, and AI operation extensions. | BSL / GPL-3.0 |
+| **[Kestra](https://github.com/kestra-io/kestra)** | [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | Event-driven, declarative YAML orchestrator for microservices, data, and agentic workflows with embedded code runners. | Apache-2.0 |
+| **[Activepieces](https://github.com/activepieces/activepieces)** | [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | No-code, open-source automation engine designed as an open Zapier alternative with 200+ pieces, AI actions, and self-hosting. | MIT / EE |
+| **[Prefect](https://github.com/PrefectHQ/prefect)** | [![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers) | Modern Python workflow orchestration engine for coordination of async tasks, LLM evaluation pipelines, and scheduled automations. | Apache-2.0 |
+| **[Windmill](https://github.com/windmill-labs/windmill)** | [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) | Developer platform that converts scripts (Python, TypeScript, Go, Bash, SQL) into internal tools, endpoints, and multi-step workflows. | AGPL-3.0 / Enterprise |
+| **[Automatisch](https://github.com/automatisch/automatisch)** | [![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers) | Privacy-first open-source Zapier alternative to automate business processes without vendor lock-in or GDPR violations. | AGPL-3.0 |
+| **[Vikunja](https://github.com/go-vikunja/vikunja)** | [![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers) | Self-hosted task and project management backend with native Model Context Protocol (MCP) support for agentic task execution. | AGPL-3.0 |
+| **[SoduWork](https://github.com/mdiri-ai/SoduWork)** | [![GitHub stars](https://img.shields.io/github/stars/mdiri-ai/SoduWork?style=social&color=white)](https://github.com/mdiri-ai/SoduWork/stargazers) | Multi-harness, multi-agent AI engine with human-in-the-loop audit trail, portable method plugins, and independent review. | MIT |
+
+---
+
+## 💡 Architectural Patterns & Combinations
+
+When engineering robust AI task automation stacks:
+- **Deterministic Orchestration + AI Agents**: Combine **n8n** or **Kestra** for reliable trigger/schedule workflows with **Flowise** or **Dify** for reasoning and prompt chains.
+- **Model Context Protocol (MCP) Integration**: Connect agentic frameworks directly with **Vikunja** or **Directus** as structured task backends, allowing agents to manipulate tasks via standardized APIs.
+- **Human-in-the-Loop Verification**: Leverage **SoduWork** or **Flowise** review gates before triggering destructive API calls or outbound communications.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! 🛠️
+
+1. 🍴 **Fork** the repository.
+2. 🌿 Create your feature branch (`git checkout -b feature/new-tool`).
+3. 📝 Add your entry under the relevant section with factual descriptions, pricing tiers, and official links.
+4. 📬 Submit a **Pull Request** detailing why the tool is valuable for the community.
+
+---
+
+## 💖 Support
+
+If you found this curated list helpful, please consider supporting the project:
+
+- ⭐ **Star** this repository on GitHub!
+- 🍴 **Fork** and share it with colleagues and communities.
+- ☕ **Buy me a coffee**: You can sponsor or support ongoing curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open automation and agentic AI community! 🙌
+
+---
+
+##  Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Workflow-Automation-Task-Management&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an independent **community-curated** directory for research and architectural evaluation.
+- Inclusion does not imply official endorsement or sponsorship by any referenced vendor.
+- AI workflows execute actions with linked credentials; always enforce least-privilege API scopes, audit trails, and human verification checkpoints for sensitive operations.
+- Always check official vendor portals for real-time tier updates and license agreements.
